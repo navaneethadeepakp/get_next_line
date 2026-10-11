@@ -19,5 +19,6 @@ Returns NULL if there is nothing left to read or an error occurs.
 
 Compile alongside your project files, defining the buffer size at runtime:
 
-Bash
+``` bash
 cc -Wall -Wextra -Werror -D BUFFER_SIZE=50 get_next_line.c get_next_line_utils.c main.c
+```
